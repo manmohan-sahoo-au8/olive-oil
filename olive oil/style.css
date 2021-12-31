@@ -694,3 +694,85 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.footer_container {
+  margin-top: 20%;
+}
+#footer {
+  background: #3d4348;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer_h6 {
+  font-family: 'playfair display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffcf00;
+  text-align: left;
+}
+#footer_h6:after {
+  content: '';
+  width: 30px;
+  border: 1px solid #92969a;
+  display: block;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.about_us_para {
+  text-align: left;
+  width: 240px;
+  font-family: catamaran, sans-serif;
+  font-size: 14px;
+  color: #92969a;
+  font-weight: 400;
+}
+.information_para {
+  text-align: left;
+}
+.information_para p a {
+  font-family: catamaran, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #92969a;
+  text-decoration: none;
+}
+.information_para p a:hover {
+  color: #d9b000;
+}
+.newsletter_para {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #92969a;
+  font-size: 14px;
+  width: 220px;
+}
+#form5Example21 {
+  background: #3d4348;
+  border: 1px solid #586067;
+}
+.subscribe_btn {
+  border: none;
+  background: #d9b000;
+  width: 150px;
+  height: 40px;
+  font-family: Montserrat;
+}
+#contact_us_div {
+  margin-left: 10%;
+  text-align: left;
+  color: #92969a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+.contact_us_para {
+  width: 250px;
+}
+#footer_icon a {
+  border-radius: 50%;
+  background: #d9b000;
+  border: none;
+}
+#footer_icon a i {
+  color: black;
+}
